@@ -1,3 +1,3 @@
-# blockchain
+# BlockChain
 
 Examples of smart-contracts
