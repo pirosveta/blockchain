@@ -1,0 +1,48 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "toGetInQueue",
+			"inputs": [
+				{"name":"personName","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "callNext",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"servedPerson","type":"string"}
+			]
+		},
+		{
+			"name": "peopleInQueue",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"peopleInQueue","type":"string[]"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"peopleInQueue","type":"string[]"}
+	]
+}
