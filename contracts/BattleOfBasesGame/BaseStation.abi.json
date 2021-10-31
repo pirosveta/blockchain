@@ -1,0 +1,89 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getDefensePower",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"int256"}
+			]
+		},
+		{
+			"name": "addUnit",
+			"inputs": [
+				{"name":"unitForInsert","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "deleteUnit",
+			"inputs": [
+				{"name":"unitForDelete","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "deathHandling",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "killByBase",
+			"inputs": [
+				{"name":"sender","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "takeAttack",
+			"inputs": [
+				{"name":"attackPower","type":"int256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "lives",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"lives","type":"int256"}
+			]
+		},
+		{
+			"name": "units",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"units","type":"address[]"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"lives","type":"int256"},
+		{"name":"defensePower","type":"int256"},
+		{"name":"units","type":"address[]"}
+	]
+}
